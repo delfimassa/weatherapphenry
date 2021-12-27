@@ -1,0 +1,34 @@
+/*MEDIA QUERIES*/
+/*X-SMALL DEVICES */
+@media all and (max-width: 576px) {
+  .ppal {
+    padding: 2rem 1rem 1rem 2rem;
+  }
+}
+
+/*SMALL DEVICES*/
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .ppal {
+    padding: 2rem 1rem 1rem 2rem;
+  }
+}
+
+/*MEDIUM DEVICES*/
+@media all and (min-width: 767px) and (max-width: 991px) {
+  .ppal {
+    padding: 4rem 4rem 4rem 4rem;
+  }
+}
+/*LARGE DEVICES*/
+@media all and (min-width: 991px) and (max-width: 1200px) {
+  .ppal {
+    padding: 4rem 4rem 4rem 4rem;
+  }
+}
+
+/*XTRA LARGE DEVICES*/
+@media all and (min-width: 1200px) {
+  .ppal {
+    padding: 4rem 4rem 4rem 4rem;
+  }
+}

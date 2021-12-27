@@ -1,0 +1,50 @@
+
+/*MEDIA QUERIES*/
+/*X-SMALL DEVICES */
+@media all and (max-width: 576px) {
+    .banner {
+  margin: 2rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+/*SMALL DEVICES*/
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .banner {
+        margin: 2rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+/*MEDIUM DEVICES*/
+@media all and (min-width: 767px) and (max-width: 991px) {
+  .banner {
+  margin: 4rem 3rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+/*LARGE DEVICES*/
+@media all and (min-width: 991px) and (max-width: 1200px) {
+    .banner {
+  padding: 4rem 3rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+/*XTRA LARGE DEVICES*/
+@media all and (min-width: 1200px) {
+    .banner {
+  padding: 4rem 3rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
