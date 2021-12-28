@@ -17,3 +17,32 @@
 .agregar:hover{
  transform:none;
 }
+
+/*MEDIA QUERIES*/
+/*X-SMALL DEVICES */
+@media all and (max-width: 576px) {
+    .agregar{
+        margin-top:0.7rem;
+    }
+}
+
+/*SMALL DEVICES*/
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .agregar{
+        margin-top:0.7rem;
+    }
+}
+
+/*MEDIUM DEVICES*/
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .agregar{
+        margin-top:0.7rem;
+    }
+}
+/*LARGE DEVICES*/
+@media all and (min-width: 991px) and (max-width: 1200px) {
+}
+
+/*XTRA LARGE DEVICES*/
+@media all and (min-width: 1200px) {
+}

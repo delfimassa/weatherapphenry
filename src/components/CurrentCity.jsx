@@ -11,9 +11,13 @@ export default function CurrentCity(props) {
     return (
       <div className={styles.caja}>
         <div className={styles.titulo}>
-        <NavLink to={`/city/${props.currentCity.id}`} activeClassName="active" className="currentLink">
+          <NavLink
+            to={`/city/${props.currentCity.id}`}
+            activeClassName="active"
+            className="currentLink"
+          >
             <h2>{props.currentCity.name}</h2>
-        </NavLink>
+          </NavLink>
           <p>{props.currentCity.weather}</p>
           <p>{props.currentCity.temp}°</p>
           <img
